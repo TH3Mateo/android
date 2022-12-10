@@ -36,9 +36,6 @@ class manager(Widget):
 class mApp(App):
     def build(self):
         menu1 = manager()
-
-
-
         return menu1
 
 

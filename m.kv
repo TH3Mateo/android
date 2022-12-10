@@ -2,8 +2,8 @@
 
 <Bt1>:
     text: 'press me'
-    size: 10,10
     pos: 50,50
+    size: 100,100
     on_press: print("ouch! More gently please")
     on_release: print("ahhh")
     on_state:
@@ -15,7 +15,7 @@
     step: 1
     pos: 200,200 
     value_track_color: "#3fcc54"
-    # size: 20,10
+    size: root.width, root.height
     size_hint_x: (2)
 
     
@@ -32,9 +32,7 @@
 
 <manager>:
     Bt1:
-        size: 100,100
         id: flash
     Angle:
-        size: 100,20
         id: one
     
